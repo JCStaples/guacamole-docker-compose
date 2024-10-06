@@ -34,7 +34,7 @@ services:
 
   # guacamole
   guacamole:
-    container_name: cyberchef
+    container_name: guac
     depends_on:
       - guacd
       - postgres
